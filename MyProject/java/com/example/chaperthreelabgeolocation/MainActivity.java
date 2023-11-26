@@ -91,9 +91,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
         // Define the specific places and their corresponding coordinates
         Map<String, LatLng> places = new HashMap<>();
-        places.put("INFORMATICS LAB", new LatLng(7.0466257, 38.5001405));
+        places.put("LIBRARY", new LatLng(7.0466257, 38.5001405));
         places.put("CLASS ROOM", new LatLng(7.0463459, 38.4999746));
-        places.put("BIOMEDICAL LAB", new LatLng(7.0461445, 38.5003551));
+        places.put("INFORMATICS LAB", new LatLng(7.0461445, 38.5003551));
 
         for (Map.Entry<String, LatLng> entry : places.entrySet()) {
             String placeName = entry.getKey();
